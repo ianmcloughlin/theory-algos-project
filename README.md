@@ -7,7 +7,7 @@ These are the instructions for the assessment for Theory of Algorithms in 2021.
 This assessment contains a number of components but overall it is worth 100% of the marks for the module.
 All aspects of the project will be covered during the semester.
 You should complete and commit the different parts of the project following the timelines indicated by the lecturer during the semester.
-Please read the **Using git for assessments** document on the Moodle page which applies here.
+Please also read the **[Using git for assessments](https://github.com/ianmcloughlin/using-git-for-assessments/raw/master/using-git-for-assessments.pdf)** document which applies to this project.
 As always, you must also follow the code of student conduct and the policy on plagiarism.
 
 To start, you must fork this repository in GitHub by clicking the Fork button on the top right or by [clicking here](https://github.com/theory-algos-project/fork).
