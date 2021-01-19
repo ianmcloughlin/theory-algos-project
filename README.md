@@ -6,35 +6,45 @@
 These are the instructions for the assessment for Theory of Algorithms in 2021.
 This assessment contains a number of components but overall it is worth 100% of the marks for the module.
 All aspects of the project will be covered during the semester.
-You should complete and commit the parts of the project, following the timelines indicated by the lecturer during the semester.
+You should complete and commit the different parts of the project following the timelines indicated by the lecturer during the semester.
+Please read the **Using git for assessments** document on the Moodle page which applies here.
+As always, you must also follow the code of student conduct and the policy on plagiarism.
 
+To start, you must fork this repository in GitHub by clicking the Fork button on the top right or by [clicking here](https://github.com/theory-algos-project/fork).
+You should take the URL of your version of the repository, which should look something like `https://github.com/your-username/theory-algos-project`, and immediately submit it using the form on the Moodle page.
+You must also set your repository to **private** and add `ianmcloughlin` as a **collaborator**.
+You should then clone that repository to your own machine and start working on the project as described below.
+You should make regular, appropriate commits to your repository and push these to GitHub.
+The last commit you make and push to GitHub before the deadline will form your submission.
+There is no problem if you want to keep working on your repository after the deadline, but there is no guarantee that that work will be graded.
+
+### What to do
 
 In this project you must write a program in the C programming language to calculate the SHA512 value of an input file.
 Your program must take the name or path of the file as a command line argument and output the SHA512 value of it.
-The program must be included in a GitHub repository along with other files detailed below.
-The URL for the repository should be submitted using the on the Moodle page.
-Your repository must be set to private from the beginning.
-
-
 The program must be coded from scratch.
 You cannot use any external libraries other than what is included in the C standard library.
 Your program must compile using gcc and you must include a `Makefile` which compiles it upon `make` being called in the project folder.
 You must also include tests which run upon `make test` being called, as will be described in lectures.
-
-
 You must also include in your repository an appropriate `.gitignore` file and a `README.md`.
-The README must cover the following:
 
-- **Description** of what is contained in the repository, pitched at an outsider.
+[NST: Secure Hash Standard](https://www.nist.gov/publications/secure-hash-standard)
+
+### Your README
+You should overwrite this README with your own work.
+The README must at least contain the following items:
+
+- A **description** of what is contained in the repository, pitched at an outsider.
 - **Compilation** instructions stating how to compile, test, and run your program.
-- **Explanation** of what the SHA512 algorithm is and why it is important.
-- **Analysis** of how secure the algorithm is, including the complexity of reversing it.
+- An **explanation** of what the SHA512 algorithm is and why it is important.
+- **Answers** to each of the following three questions:
+    - Why can't we just reverse the algorithm to retrieve the original message from a hash digest?
+    - Can you design an algorithm that, given enough time, will find input messages for each of the possible 512 bit strings?
+    - How difficult is it to find a hash digest beginning with at least twelve zeros?
+    
 
-Please read the **Using git for assessments** document on the Moodle page which applies here.
-As always, you must also follow the code of student conduct and the policy on plagiarism.
 
-
-#### Marking scheme
+### Marking scheme
 
 The following marking scheme will be used to mark your submission out of 100%.
 The examiner's overall impression of your submission may influence marks in each individual component.
