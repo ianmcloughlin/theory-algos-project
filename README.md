@@ -1,6 +1,6 @@
 # Theory of Algorithms Project 2021
 
-## Due: last commit on or before April 30<sup>th</sup>, 2021
+### Due: last commit on or before April 30<sup>th</sup>, 2021
 
 
 These are the instructions for the assessment for Theory of Algorithms in 2021.
