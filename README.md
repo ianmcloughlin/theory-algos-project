@@ -20,10 +20,10 @@ There is no problem if you want to keep working on your repository after the dea
 
 ### What to do
 
-In this project you must write a program in the C programming language to calculate the SHA512 [[1]](#1) value of an input file.
+In this project you must write a program in the C programming language to calculate the [SHA512](https://www.nist.gov/publications/secure-hash-standard) value of an input file.
 Your program must take the name or path of the file as a command line argument and output the SHA512 digest of it.
 The program must be coded from scratch - you cannot use any external libraries other than what is included in the C standard library.
-Your program must compile using `gcc` or `clang` and you must include a `Makefile` [[2]](#2) which compiles it upon `make` being called in the project folder.
+Your program must compile using `gcc` or `clang` and you must include a `Makefile` which compiles it upon `make` being called in the project folder.
 You must also include tests which run upon `make test` being called, as will be described in lectures.
 You should also include in your repository an appropriate `.gitignore` file and a `README.md` as described below.
 
@@ -58,21 +58,3 @@ Likewise, your submission should have references in it to demonstrate that you c
 |25% | Development | Environment can be set up as described; code works without tweaking and as described; code is efficient, clean, and clear; evidence of consideration of standards and conventions appropriate to code of this kind. |
 |25% | Consistency | Evidence of planning and project management; pragmatic attitude to work as evidenced by well-considered commit history; commits are of a reasonable size; consideration of how commit history will be perceived by others. |
 |25% | Documentation | Clear documentation of how to create an environment in which any code will run, how to prepare the code for running, how to run the code including setting any options or flags, and what to expect upon running the code. Concise descriptions of code in comments and README. |
-
-
-### References
-
-
-<a id="1">[1]</a>
-*Secure Hash Standard*;
-Quynh H. Dang;
-NIST: National Institute of Standards and Technology.
-
-https://www.nist.gov/publications/secure-hash-standard
-
-
-<a id="2">[2]</a>
-GNU make;
-Free Software Foundation.
-
-https://www.gnu.org/software/make/
