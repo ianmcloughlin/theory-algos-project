@@ -64,13 +64,15 @@ Likewise, your submission should have references in it to demonstrate that you c
 
 
 <a id="1">[1]</a>
-Secure Hash Standard
-Quynh H. Dang
-NIST: National Institute of Standards and Technology
+*Secure Hash Standard*;
+Quynh H. Dang;
+NIST: National Institute of Standards and Technology.
+
 https://www.nist.gov/publications/secure-hash-standard
 
 
 <a id="2">[2]</a>
-GNU make
-Free Software Foundation
+GNU make;
+Free Software Foundation.
+
 https://www.gnu.org/software/make/
