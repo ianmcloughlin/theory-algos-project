@@ -21,25 +21,24 @@ There is no problem if you want to keep working on your repository after the dea
 ### What to do
 
 In this project you must write a program in the C programming language to calculate the SHA512 value of an input file.
-Your program must take the name or path of the file as a command line argument and output the SHA512 value of it.
-The program must be coded from scratch.
-You cannot use any external libraries other than what is included in the C standard library.
-Your program must compile using gcc and you must include a `Makefile` which compiles it upon `make` being called in the project folder.
+Your program must take the name or path of the file as a command line argument and output the SHA512 digest of it.
+The program must be coded from scratch - you cannot use any external libraries other than what is included in the C standard library.
+Your program must compile using `gcc` or `clang` and you must include a `Makefile` which compiles it upon `make` being called in the project folder.
 You must also include tests which run upon `make test` being called, as will be described in lectures.
-You must also include in your repository an appropriate `.gitignore` file and a `README.md`.
+You should also include in your repository an appropriate `.gitignore` file and a `README.md` as described below.
 
 [NST: Secure Hash Standard](https://www.nist.gov/publications/secure-hash-standard)
 
 ### Your README
 You should overwrite this README with your own work.
-The README must at least contain the following items:
+The README must at least contain the following items.
 
-- A **description** of what is contained in the repository, pitched at an outsider.
+- A **description** of your repository and its contents, pitched at a knowledgeable outsider.
 - **Compilation** instructions stating how to compile, test, and run your program.
 - An **explanation** of what the SHA512 algorithm is and why it is important.
-- **Answers** to each of the following three questions:
-    - Why can't we just reverse the algorithm to retrieve the original message from a hash digest?
-    - Can you design an algorithm that, given enough time, will find input messages for each of the possible 512 bit strings?
+- **Answers** to each of the following three questions, up to 500 words each:
+    - Why can't we reverse the SHA512 algorithm to retrieve the original message from a hash digest?
+    - Can you design an algorithm that, given enough time, will find input messages that give each of the possible 512 bit strings?
     - How difficult is it to find a hash digest beginning with at least twelve zeros?
     
 
