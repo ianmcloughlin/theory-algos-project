@@ -8,7 +8,7 @@ This assessment contains several parts but overall, it is worth 100% of the mark
 All aspects of the project will be covered during the semester.
 You should complete and commit the different parts of the project following the timelines indicated by the lecturer during the semester.
 Please also read the **[Using git for assessments](https://github.com/ianmcloughlin/using-git-for-assessments/raw/master/using-git-for-assessments.pdf)** document which applies to this project.
-As always, you must also follow the code of student conduct and the policy on plagiarism.
+As always, you must also follow the [code of student conduct and the policy on plagiarism](https://www.gmit.ie/general/quality-assurance-framework).
 
 To start, you must create a new repository solely for this project in GitHub.
 You should take the URL of your repository, which should look something like `https://github.com/your-username/theory-algos-project`, and immediately submit it using the form on the Moodle page.
