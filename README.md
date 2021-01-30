@@ -4,7 +4,7 @@
 
 
 These are the instructions for the assessment for Theory of Algorithms in 2021.
-This assessment contains a number of components but overall it is worth 100% of the marks for the module.
+This assessment contains several parts but overall, it is worth 100% of the marks for the module.
 All aspects of the project will be covered during the semester.
 You should complete and commit the different parts of the project following the timelines indicated by the lecturer during the semester.
 Please also read the **[Using git for assessments](https://github.com/ianmcloughlin/using-git-for-assessments/raw/master/using-git-for-assessments.pdf)** document which applies to this project.
@@ -33,12 +33,12 @@ You should also include in your repository an appropriate `.gitignore` file and 
 You should overwrite this README with your own work.
 The README must at least contain the following items.
 
-- A **description** of your repository and its contents, pitched at a knowledgeable outsider.
+- A **description** of your repository and its contents pitched at a knowledgeable outsider.
 - **Compilation** instructions stating how to compile, test, and run your program.
 - An **explanation** of what the SHA512 algorithm is and why it is important.
 - **Answers** to each of the following three questions, up to 500 words each:
     - Why can't we reverse the SHA512 algorithm to retrieve the original message from a hash digest?
-    - Can you design an algorithm that, given enough time, will find input messages that give each of the possible 512 bit strings?
+    - Can you design an algorithm that, given enough time, will find input messages that give each of the possible 512-bit strings?
     - How difficult is it to find a hash digest beginning with at least twelve zeros?
     
 
