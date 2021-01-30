@@ -10,8 +10,8 @@ You should complete and commit the different parts of the project following the 
 Please also read the **[Using git for assessments](https://github.com/ianmcloughlin/using-git-for-assessments/raw/master/using-git-for-assessments.pdf)** document which applies to this project.
 As always, you must also follow the code of student conduct and the policy on plagiarism.
 
-To start, you must fork this repository in GitHub by clicking the Fork button on the top right or by [clicking here](https://github.com/theory-algos-project/fork).
-You should take the URL of your version of the repository, which should look something like `https://github.com/your-username/theory-algos-project`, and immediately submit it using the form on the Moodle page.
+To start, you must create a new repository solely for this project in GitHub.
+You should take the URL of your repository, which should look something like `https://github.com/your-username/theory-algos-project`, and immediately submit it using the form on the Moodle page.
 You must also set your repository to **private** and add `ianmcloughlin` as a **collaborator**.
 You should then clone that repository to your own machine and start working on the project as described below.
 You should make regular, appropriate commits to your repository and push these to GitHub.
@@ -58,3 +58,13 @@ Likewise, your submission should have references in it to demonstrate that you c
 |25% | Development | Environment can be set up as described; code works without tweaking and as described; code is efficient, clean, and clear; evidence of consideration of standards and conventions appropriate to code of this kind. |
 |25% | Consistency | Evidence of planning and project management; pragmatic attitude to work as evidenced by well-considered commit history; commits are of a reasonable size; consideration of how commit history will be perceived by others. |
 |25% | Documentation | Clear documentation of how to create an environment in which any code will run, how to prepare the code for running, how to run the code including setting any options or flags, and what to expect upon running the code. Concise descriptions of code in comments and README. |
+
+
+### Resources
+
+Here is a list of resources you might review to complete this project.
+
+1. [*Secure Hash Standard*, Quynh H. Dang,<br> https://www.nist.gov/publications/secure-hash-standard](https://www.nist.gov/publications/secure-hash-standard)
+2. [*Secure Hash Algorithms*, Brilliant.org,<br> https://brilliant.org/wiki/secure-hashing-algorithms/](https://brilliant.org/wiki/secure-hashing-algorithms/)
+3. [*Mining Bitcoin with pencil and paper: 0.67 hashes per day*, Ken Shirriff's blog,<br>http://www.righto.com/2014/09/mining-bitcoin-with-pencil-and-paper.html](http://www.righto.com/2014/09/mining-bitcoin-with-pencil-and-paper.html)
+4. [*Git Handbook*,GitHub,<br>https://guides.github.com/introduction/git-handbook/](https://guides.github.com/introduction/git-handbook/)
