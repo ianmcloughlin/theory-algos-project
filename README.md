@@ -28,8 +28,7 @@ You must also include tests which run upon `make test` being called, as will be 
 You should also include in your repository an appropriate `.gitignore` file and a `README.md` as described below.
 
 ### Your README
-You should overwrite this README with your own work.
-The README must at least contain the following items.
+Your README must at least contain the following items.
 
 - A **description** of your repository and its contents pitched at a knowledgeable outsider.
 - **Compilation** instructions stating how to compile, test, and run your program.
