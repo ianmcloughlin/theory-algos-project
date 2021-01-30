@@ -27,8 +27,6 @@ Your program must compile using `gcc` or `clang` and you must include a `Makefil
 You must also include tests which run upon `make test` being called, as will be described in lectures.
 You should also include in your repository an appropriate `.gitignore` file and a `README.md` as described below.
 
-[NST: Secure Hash Standard](https://www.nist.gov/publications/secure-hash-standard)
-
 ### Your README
 You should overwrite this README with your own work.
 The README must at least contain the following items.
